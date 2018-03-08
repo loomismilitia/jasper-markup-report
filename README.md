@@ -22,3 +22,4 @@ localhost:8080
 ## References
 
 * https://github.com/TIBCOSoftware/jasperreports/tree/master/jasperreports/demo/samples/markup
+* https://community.jaspersoft.com/wiki/how-embed-fonts-jasperreport-ireport-generated-pdf-file
