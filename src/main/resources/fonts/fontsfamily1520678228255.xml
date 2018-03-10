@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+	<fontFamily name="DejaVu Sans">
+		<normal><![CDATA[fonts/DejaVuSans.ttf]]></normal>
+		<bold><![CDATA[fonts/DejaVuSans-Bold.ttf]]></bold>
+		<italic><![CDATA[fonts/DejaVuSans-Oblique.ttf]]></italic>
+		<boldItalic><![CDATA[fonts/DejaVuSans-BoldOblique.ttf]]></boldItalic>
+		<exportFonts/>
+	</fontFamily>
+</fontFamilies>
