@@ -2,6 +2,8 @@
 
 This is a sample spring boot application with jasper reports markup
 
+**Important:** Jasper report engine is not rendering correctly the the markup elements with `text-size:` in pixels.   
+
 ## Build & Run
 
 The Spring Boot Maven plugin includes a run goal which can be used to quickly compile and run your application. 

@@ -43,10 +43,16 @@ Following is a numbered list of animals using Roman numerals and starting with n
 </OL>
 <P/>
 <p>
- <span style="font-size: 13px">13px span tag</span>
+<span style="font-size: 13px">this is a 13px span and should have the same font-size of 9.75pt span tag</span>
 </p>
 <p>
- <span style="font-size: 10pt">10pt span tag</span>
+<span style="font-size: 9.75pt">this is a 9.75pt span and should have the same font-size of 13px span tag</span>
+</p>
+<p>
+<span style="font-size: 16px">this is a 16px span and should have the same font-size of 12pt span tag</span>
+</p>
+<p>
+<span style="font-size: 12pt">this is a 12pt span and should have the same font-size of 16px span tag</span>
 </p>
 <p>
  <FONT STYLE="font-size: 10pt">10pt font tag</FONT>

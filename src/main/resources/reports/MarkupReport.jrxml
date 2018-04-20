@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.5.0.final using JasperReports Library version 6.5.0  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MarkupReport" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" uuid="e87dbd0e-2e23-4ece-b475-38f7122440a4">
 	<style name="Arial_Normal" isDefault="true" fontName="Arial" fontSize="10" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
 	<parameter name="RtfText" class="java.lang.String"/>
 	<parameter name="HtmlText" class="java.lang.String"/>
 	<title>
-		<band height="350">
+		<band height="470">
 			<staticText>
 				<reportElement style="Arial_Normal" mode="Opaque" x="0" y="0" width="555" height="110" backcolor="#C0C0C0" uuid="ad41424d-75ee-4d62-8819-890139cc26bd"/>
 				<textElement markup="styled">
@@ -26,6 +27,10 @@
 				</textElement>
 				<textFieldExpression><![CDATA[$P{HtmlText}]]></textFieldExpression>
 			</textField>
+			<staticText>
+				<reportElement style="Arial_Normal" positionType="Float" mode="Opaque" x="0" y="360" width="555" height="20" backcolor="#C0C0C0" uuid="e5fa7338-b9bb-4a58-85ca-4b293cf1e9fc"/>
+				<text><![CDATA[This is a static text with font size 10pt]]></text>
+			</staticText>
 		</band>
 	</title>
 </jasperReport>
